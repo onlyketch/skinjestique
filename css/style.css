@@ -118,7 +118,7 @@ table {
 }
 .inner__text {
 	margin-top: 56px;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: 500;
 	line-height: 45px;
 	text-transform: uppercase;
@@ -185,6 +185,7 @@ table {
 @media (max-width: 599px) {
 	.wrapper {
 		padding: 40px 30px;
+		height: auto;
 	}
 
 	.inner__logo img {
@@ -214,7 +215,7 @@ table {
 
 	.inner__copy {
 		flex-direction: column;
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	.inner__copy_el {
