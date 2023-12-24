@@ -103,13 +103,17 @@ html, body {
 	text-align: center;
 }
 
+.inner__logo {
+	display: block;
+}
+
 .inner__logo img {
 	width: 320px;
 	height: 159px;
 }
 
 .inner__box {
-	margin-top: 70px;
+	margin-top: -20px;
 	border-right: 2px solid #E6E6E6;
 	border-left: 2px solid #E6E6E6;
 	padding: 0 114px;
@@ -165,7 +169,7 @@ html, body {
 	padding-top: 1px;
 }
 .inner__footer {
-	margin-top: 160px;
+	margin-top: 70px;
 }
 .inner__copy {
 	display: flex;
@@ -202,24 +206,24 @@ html, body {
 	}
 
 	.inner__text {
-		font-size: 16px;
+		font-size: 15px;
 		margin-top: 25px;
-		line-height: 32px;
+		line-height: 28px;
 	}
 
 	.inner__box {
-		margin-top: 35px;
+		margin-top: 10px;
 		padding: 0;
 		border: none; 
 	}
 
 	.inner__footer {
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 
 	.inner__copy {
 		flex-direction: column;
-		font-size: 12px;
+		font-size: 10px;
 	}
 
 	.inner__copy_el {
